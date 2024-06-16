@@ -1,14 +1,13 @@
-// src/App.js
 import React from 'react';
+import MainViewComponent from './MainViewComponent';
 import './App.css';
-import Particles from './Particles';
 
-function App() {
-  return (
-    <div className="App">
-      <Particles />
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <MainViewComponent demoType="field" runCanvasDemo="maxVelocity" runFieldDemo="galaxies" />
+        </div>
+    );
+};
 
 export default App;
