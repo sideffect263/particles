@@ -1,0 +1,22 @@
+/* src/App.css */
+html {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.data-section {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.date-value {
+  display: flex;
+  flex-flow: column nowrap;
+  color: #dddddd;
+  margin-bottom: 1rem;
+}
